@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="3556750600">
-        <zone name="Zone_hen" smin="1" smax="2" dmin="0" dmax="0" x="9255.83" z="889.167" r="50"/>
-    </territory>
-    <territory color="3556750600">
         <zone name="Zone_hen" smin="1" smax="3" dmin="0" dmax="0" x="8261.11" z="785" r="50"/>
         <zone name="Zone_hen" smin="1" smax="3" dmin="4" dmax="6" x="6160" z="3540" r="100"/>
         <zone name="Zone_hen" smin="1" smax="5" dmin="0" dmax="4" x="6174" z="5554" r="100"/>
@@ -21,5 +18,8 @@
         <zone name="Zone_hen" smin="1" smax="5" dmin="0" dmax="4" x="6670" z="9910" r="100"/>
         <zone name="Zone_hen" smin="1" smax="5" dmin="0" dmax="4" x="5280" z="8970" r="100"/>
         <zone name="Zone_hen" smin="1" smax="5" dmin="0" dmax="4" x="4980" z="9210" r="100"/>
+    </territory>
+    <territory color="3556750600">
+        <zone name="Zone_hen" smin="1" smax="4" dmin="0" dmax="0" x="9255.83" z="889.167" r="50"/>
     </territory>
 </territory-type>
