@@ -2,9 +2,9 @@
 <!--DayZ CE tool project file-->
 <zg-config>
     <!--GUI props-->
-    <selected row="24"/>
+    <selected row="23"/>
     <global>
-        <background file="Valning_Map4K.png" rgba="805306367"/>
+        <background file="Valning_Map4K_Calibrated.png" rgba="805306367"/>
         <layer size="4096"/>
         <world size="10240"/>
     </global>
@@ -36,10 +36,10 @@
     <layers>
         <layer usage_flags="0" value_flags="0" color="2143145966" visible="0" name="water-fresh"/>
         <layer usage_flags="0" value_flags="0" color="4283726062" visible="0" name="keyPoint-Churches"/>
-        <layer usage_flags="0" value_flags="1" color="951249919" visible="0" name="valueFlg_Tier1"/>
-        <layer usage_flags="0" value_flags="2" color="2065984111" visible="0" name="valueFlg_Tier2"/>
-        <layer usage_flags="0" value_flags="4" color="1481847295" visible="0" name="valueFlg_Tier3"/>
-        <layer usage_flags="0" value_flags="8" color="1256563969" visible="0" name="valueFlg_Tier4"/>
+        <layer usage_flags="0" value_flags="1" color="951249919" visible="1" name="valueFlg_Tier1"/>
+        <layer usage_flags="0" value_flags="2" color="2065984111" visible="1" name="valueFlg_Tier2"/>
+        <layer usage_flags="0" value_flags="4" color="1481847295" visible="1" name="valueFlg_Tier3"/>
+        <layer usage_flags="0" value_flags="8" color="1256563969" visible="1" name="valueFlg_Tier4"/>
         <layer usage_flags="0" value_flags="0" color="3254779903" visible="0" name="usgFlg_Def-All"/>
         <layer usage_flags="32" value_flags="0" color="4286997844" visible="0" name="usgFlg_Def-Farm"/>
         <layer usage_flags="0" value_flags="0" color="4281118050" visible="0" name="usgFlg_Def-Firefighter"/>
@@ -279,6 +279,9 @@
             </territory>
         </territory-type>
         <territory-type name="bear_territories">
+            <territory name="bear_clearmili3" visible="0" color="4278190080">
+                <zone name="Graze" smin="1" smax="2" dmin="0" dmax="0" x="8800" z="735" r="50" d="2"/>
+            </territory>
             <territory name="bear_clear_mili2" visible="0" color="4278190080">
                 <zone name="Graze" smin="1" smax="3" dmin="0" dmax="0" x="9210" z="1846.67" r="50" d="2"/>
             </territory>
@@ -314,9 +317,6 @@
             </territory>
             <territory name="bear_airforce 2" visible="0" color="4278190080">
                 <zone name="Graze" smin="1" smax="1" dmin="1" dmax="4" x="2573.33" z="980" r="100" d="2"/>
-            </territory>
-            <territory name="bear_clearmili3" visible="0" color="4278190080">
-                <zone name="Graze" smin="1" smax="2" dmin="0" dmax="0" x="8800" z="735" r="50" d="2"/>
             </territory>
         </territory-type>
         <territory-type name="wolf_territories">

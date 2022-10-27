@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="4278190080">
+        <zone name="Graze" smin="1" smax="2" dmin="0" dmax="0" x="8800" z="735" r="50"/>
+    </territory>
+    <territory color="4278190080">
         <zone name="Graze" smin="1" smax="3" dmin="0" dmax="0" x="9210" z="1846.67" r="50"/>
     </territory>
     <territory color="4278190080">
@@ -35,8 +38,5 @@
     </territory>
     <territory color="4278190080">
         <zone name="Graze" smin="1" smax="1" dmin="1" dmax="4" x="2573.33" z="980" r="100"/>
-    </territory>
-    <territory color="4278190080">
-        <zone name="Graze" smin="1" smax="2" dmin="0" dmax="0" x="8800" z="735" r="50"/>
     </territory>
 </territory-type>
